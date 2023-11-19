@@ -1,0 +1,46 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=BorderFocus
+qgisMinimumVersion=3.0
+description=clicks on the edge center them on the canvas
+version=1.0
+author=Bernabe Hinojosa L. y CHATGPT
+email=Bernabehl@gmail.com
+
+about=BorderFocus es un complemento QGIS diseñado para mejorar significativamente la velocidad y la eficiencia en el dibujo y la navegación de mapas. Equipado con un borde ajustable y autocentrado, este complemento elimina la necesidad de reajustar manualmente la vista cada vez que se alcanza el borde del espacio de trabajo. Con un solo clic, los usuarios pueden centrar instantáneamente tanto el mapa como el cursor, lo que permite realizar dibujos y análisis continuos y fluidos. Es una herramienta indispensable para los cartógrafos y profesionales SIG que buscan optimizar su flujo de trabajo y mejorar la precisión en la visualización de mapas.
+
+homepage=https://giseros.com/borderfocus-qgis/
+tracker=https:https://github.com/webmasterbhl/borderfocus
+repository=https://github.com/webmasterbhl/borderfocus
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=cad, delimitation, digitizing
+
+category=Plugins
+icon=icon.png
+
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
